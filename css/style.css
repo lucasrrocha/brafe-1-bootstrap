@@ -1,6 +1,11 @@
 /* Reset */
 
-body, h1, h2, h3, p, ul {
+body,
+h1,
+h2,
+h3,
+p,
+ul {
 	padding: 0px;
 	margin: 0px;
 }
@@ -12,6 +17,11 @@ body {
 
 * {
 	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
 }
 
 /* Menu */
@@ -69,7 +79,7 @@ body {
 	position: relative;
 }
 
-.sobre > p {
+.sobre>p {
 	font-size: 1.125em;
 	line-height: 1.4em;
 	font-style: italic;
